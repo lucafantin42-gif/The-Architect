@@ -14,7 +14,7 @@
 
 <script>
 async function updateCounter() {
-  const response = await fetch("URL_DE_TON_SCRIPT"); // remplacer par ton Apps Script
+  const response = await fetch("https://script.google.com/macros/s/AKfycbybVArOCsUZ9vRfWoHidwByeEO4lZ7JbJ73E3-7_ltUOUWSMUwDfp7NPRkpTHghZ0aA1g/exec"); // remplacer par ton Apps Script
   const text = await response.text();
   document.getElementById("counter").innerText = text;
 }
